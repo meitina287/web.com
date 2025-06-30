@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya - Website Pribadi</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #fff5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #ffcce6;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #d14d8d;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #ff99cc;
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-color: #ffebf3;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ff99cc;
+            margin-bottom: 1rem;
+        }
+        
+        .hero h1 {
+            color: #d14d8d;
+            margin-bottom: 0.5rem;
+        }
+        
+        .hero p {
+            color: #ff6699;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #ffcce6;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            color: #d14d8d;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Saya</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="foto.html">Foto</a></li>
+            <li><a href="puisi.html">Puisi</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <img src="fotoku.jpg" alt="Foto profil berupa ilustrasi kartun wajah saya dengan rambut pendek dan senyum lebar, background warna pink pastel" />
+        <h1>Tentang Saya</h1>
+    </section>
+    
+    <div class="container">
+		<h2>hallo! saya meytina telaumbanua</h2>
+        <p>seorang mahasisiwa yang sedang merangkai impian demi masa depan yang lebih cerah.<p>
+		<p>aku memiliki semangat besar untuk terus belajar,<p>
+		<p>menjelajah hal-hal baru yang bisa membentuk diriku menjadi pribadi yang lebih tangguh dan percaya diri.<p>
+		<p>Bagiku, setiap perjalanan, sekecil apapun langkahnya adalah bagian penting dari cerita yang sedang aku tulis dengan ketekunan dan harapan.<p>
+    </div>
+    
+    <footer>
+        <p>© 2023 Website Pribadi. Dibuat dengan ❤️ oleh Saya.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto - Website Pribadi</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #fff5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #ffcce6;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #d14d8d;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #ff99cc;
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-color: #ffebf3;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            color: #d14d8d;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        /* Photo Gallery */
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .photo {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px; /* Set width for each photo container */
+        }
+        
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #ffcce6;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            color: #d14d8d;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+            
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Saya</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="foto.html">Foto</a></li>
+            <li><a href="puisi.html">Puisi</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <h1>Galeri Foto</h1>
+        <p>"Momen-momen berharga yang ingin saya bagikan."</p>
+    </section>
+    
+    <div class="container">
+        <h2>Foto-Foto Saya</h2>
+        
+        <div class="gallery">
+            <div class="photo">
+                <img src="fotoku.jpg" alt="Deskripsi Foto 1">
+                <p>foto sendiri</p>
+            </div>
+            <div class="photo">
+                <img src="kenangan.jpg" alt="Deskripsi Foto 2">
+                <p>foto kenangan digereja bethani teldam</p>
+				</div>
+            <div class="photo">
+                <img src="fotokeluarga.jpg" alt="Deskripsi Foto 3">
+                <p></p>foto keluargaku</p>
+				</div>
+            <div class="photo">
+                <img src="fotobersama.jpg" alt="Deskripsi Foto 4">
+                <p></p>fotobersamakawan</p>
+				</div>
+            <div class="photo">
+                <img src="pkmb.jpg" alt="Deskripsi Foto 5">
+                <p></p>Foto kenangan waktu pkmb</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Website Pribadi. Dibuat dengan ❤️ oleh Saya.</p>
+    </footer>
+</body>
+</html>

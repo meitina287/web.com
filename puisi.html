@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puisi - Website Pribadi</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #fff5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #ffcce6;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #d14d8d;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #ff99cc;
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-color: #ffebf3;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            color: #d14d8d;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .poem {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .poem h3 {
+            color: #d14d8d;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #ffcce6;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            color: #d14d8d;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Saya</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="foto.html">Foto</a></li>
+            <li><a href="puisi.html">Puisi</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <h1>Puisi Saya</h1>
+        <p>"Kata-kata yang mengalir dari hati dan jiwa."</p>
+    </section>
+    
+    <div class="container">
+        <h2>Kumpulan Puisi</h2>
+        
+        <div class="poem">
+            <h3>Puisi 1:Pelan,tapi sampai</h3>
+            <p>Senja jatuh di unjung hari,<br>
+            mengingatkanku bahwa besok pasti kembali.<br>
+            tak apa berjalan perlahan kini,</br>
+			Asal langkahmu tetap menuju mimpi".</p>
+        </div>
+        
+        <div class="poem">
+            <h3>"Puisi 2:jembatan menuju mimpi</h3>
+            <p>Langkah kecil hari ini,<br>
+            adalah jembatan menuju  mimpi.<br>
+            meskin angin kadang berbalik,<br>
+            Tekadku tetap tak terusik".</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Website Pribadi. Dibuat dengan ❤️ oleh Saya.</p>
+    </footer>
+</body>
+</html>
